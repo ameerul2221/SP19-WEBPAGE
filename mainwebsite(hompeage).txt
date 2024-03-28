@@ -1,0 +1,3463 @@
+﻿<link rel="icon" href="Logo Panel.png">
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style2.css">
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="logo covidbat icon" href="Logo panel.png">
+</head>
+<body>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<title>CovidBAT:BookAndTrial Homepage</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.headtopnav1 {
+  overflow: hidden;
+  background-color: transparent;
+  color: darkblue;
+}
+
+.headtopnav1 a {
+  float: left;
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.headtopnav1 a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.headtopnav1 a.active {
+  background-color: darkblue
+  color: white;
+}
+
+.headtopnav1 input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .headtopnav1 a, .headtopnav1 input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .headtopnav1 input[type=text] {
+    border: 1px solid white;  
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="headtopnav1">
+  <a href="#">Home</a>
+  <a href="About/About.html">About</a>
+  <a href="#" onclick="myFunction2()">Contact</a>
+  <a href="customerservice/index.html">Customer service</a>
+  <a href="bookatrip/bookatrip.html">Book a trip</a>
+  <a href="visit/index.html">Visit</a>
+  <a href="#">Latest news</a>
+  <a href="BOOKREGISTRATION/registrationformconfirm/index.html">Register</a>
+  <a href="information/homepage.html">Information</a>
+  <a href="covidtravelnewversion/index.html">Travel advice</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+</body>
+<script>
+function myFunction2() {
+confirm("Sorry! Our website is have an technical issue. We are getting it fixed as soon as possible!")
+}
+
+</script>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<style>
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkblue;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:red;
+}
+
+:rootoooo{
+	--main: royalblue;
+	--darkblue: darkblue;
+	--royalblue: royalblue;
+	--white: white;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Calibri;
+}
+.clearfixoooo{
+	clear: both;
+}
+headeroooo{
+	padding: 20px 0px;
+	box-shadow: 2px 2px 15px var(--dark);
+}
+.containeroooo{
+	width: 1000px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+.container1oooo{
+	width: 1200px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+.col-div-6oooo{
+	width: 50%;
+	float: left;
+}
+.logooooo{
+	font-weight: bold;
+	font-size: 25px;
+	color: darkblue;
+        font-family: "Calibri", Times, serif;        
+}
+.logooooo span{
+	color: var(--main);
+}
+.navoooo{
+	float: right;
+}
+.navoooo li{
+	list-style: none;
+	float: left;
+	padding: 10px 20px;
+}
+.navoooo li a{
+	text-decoration: none;
+	color: darkblue;
+        font-family: "Calibri", Times, serif;  
+}
+.navoooo li button{
+	padding: 7px 20px;
+        background: var(--main);
+        color: darkblue;
+        font-family: "Calibri", Times, serif;  
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: -5px;
+}
+.banner-sectionoooo{
+	background: var(--main);
+	height: 400px;
+	overflow: hidden;
+}
+.headingoooo{
+	color: darkblue;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 14%;
+}
+.p1{
+    color: white;
+    width: 395px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.ban-imgoooo{
+	width: 250px;
+	margin-bottom:-50px;
+
+}
+.b-imgoooo{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.blog-headingoooo{
+	font-size: 29px;
+        font-weight: lighter;
+        margin-bottom: 20px;
+        color: black;
+}
+
+.nameoooo{
+    font-weight: 600;
+    color: darkblue;
+    font-size: 14px;
+}
+.lr-boxoooo{
+	padding: 10px 20px;
+
+}
+.b-img-1oooo{
+	width: 120%;
+	height: 160px;
+	border-radius: 25px;
+	margin-top: 7px;
+}
+.blog-heading-1oooo{
+	font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+.lineoooo{
+	    width: 100%;
+	    margin-top: 15px;
+    border: none;
+    height: 1px;
+    background: white;
+}
+.lr-boxoooo:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.box-1oooo:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.box-2oooo{
+	width: 28.5%;
+	float: left;
+	margin: 25px;
+}
+.box-2oooo:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+</style>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header>
+	<div class="containeroooo">
+		<div class="col-div-6oooo">
+			<p class="logooooo">CovidBAT:BookAndTrial</p>
+		</div>
+		<div class="col-div-6oooo">
+			<ul class="navoooo">
+				<li><a href="informationofcovid/index.html">Information of covid-19</a></li>
+                                <li><a href="support/support.html">Support</a></li>
+                                <li><a href="traveltips/index.html">Travel tips</a></li>
+                                <li><a href="Symptoms/index.html">Symptoms</a></li>
+                                <li><a href="Galleries/index.html">Galleries</a></li>
+				<li><button>Subscribe</button></a></li>
+			</ul>
+		</div>
+		<div class="clearfixoooo"></div>
+	</div>
+</header>
+
+</section>
+</head>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("header1.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: dodgerblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: darkblue;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px; color:white;">Want to now more information about the Covid-19 pandemic?</h1>
+    <a href="informationofcovid/index.html"><button style="border-radius: 12px;">Click here</button></a>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.headerdfsd {
+  padding: 40px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="headerdfsd">
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	h1 {
+	color: darkblue;
+	}
+
+	p {
+	text-align: justify;
+	font-size: 25px;
+	}
+</style>
+</head>
+<body>
+<h1 style="color:midnightblue; font-family:Calibri; font-size:44px; font-weight:bold;">What are the risks of catching Covid-19?</h1>
+<b>
+
+</b>
+<div class="square">
+	<div>
+	<img src=
+"covidinfection1.png"
+		alt="covidinfection1" style="float:left; margin:10px;width:500px;height:500px;">
+	</div>
+	
+<p style="color:midnightblue; font-family:Calibri; font-weight:lighter; font-size:16px;">
+The risks of catching or passing COVID-19 can lead to a serious infection with many scientific features of COVID-19 This example includes influenza(flu), which can spread easily and cause serious illness in some people. This infection that is spread easily can cause serious illness in some people. Furthermore, these infections are spread to other young people and old people, along with people with unhealthy conditions. This may also include infections with a respiratory virus, such as COVID-19, and may be infected with a respiratory virus, such as COVID-19 and not have any symptoms but can still pass infections onto others. The small particles containing the virus are released by speaking, coughing, or sneezing, which can be breathed in or encountered in the eyes or mouth. Also, the particles can land on surfaces that can be passed from person to person, which is touching each other.
+	</p>
+
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.headerdfsd34f {
+  padding: 200px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="headerdfsd34f">
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.headerdfsd34 {
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="headerdfsd34">
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<section>
+	<div class="containeroooo">
+		<br><br>
+		<div class="col-div-6oooo">
+				<a href="https://news.sky.com/story/covid-19-where-can-you-travel-who-will-have-us-and-what-are-the-restrictions-12384479"><img src="covidtravel.png" float:center; class="b-imgoooo"></a>
+				<h3 class="heading1oooo" style="font-family: Calibri, Helvetica, sans-serif; font-size: 20px; color:darkblue;">Travel</h3>
+				<p class="blog-headingoooo">COVID-19: Which countries are letting Britons in? Check entry requirements for the country you want to visit</p>
+				<p style="font-weight:lighter; letter-spacing: -1px; line-height: 1;">
+COVID restrictions have been eased considerably for most people coming into the UK, but for those heading abroad many countries still have strict restrictions in place.
+</p>
+				<span class="nameoooo" style="text-transform: uppercase font-family: Calibri, Helvetica, sans-serif;">Friday 18 February 2022, UK</span>
+		</div>
+			</div>
+		<div class="col-div-6oooo">
+			<div class="lr-boxoooo">
+			<div class="col-div-6oooo">
+				<h3 style="font-family: Calibri, Helvetica, sans-serif; font-size: 20px; color:darkblue;">Travel</h3>
+				<p class="blog-headingoooo">Traveling to Thailand during Covid-19: What you need to know before you go
+CNN Staff</p>
+				<p style="font-weight:lighter; letter-spacing: -1px; line-height: 1;">Coronavirus cases are in flux across the globe. Health officials caution that staying home is the best way to stem transmission until you’re fully vaccinated. Below is information on what to know if you still plan to travel, last updated on September 26, 2022. </p>
+				<span class="nameoooo" style="text-transform: uppercase font-family: Calibri, Helvetica, sans-serif;">Monday 26 Septmeber 2022</span>
+			</div>
+			<div class="col-div-6oooo">
+				<a href="https://edition.cnn.com/travel/article/thailand-travel-covid-19/index.html"><img src="covidtravel2.png" class="b-img-1oooo"></a>
+			</div>
+			<div class="clearfixoooo"></div>
+			<hr class="lineoooo">
+			</div>
+
+
+			<div class="lr-boxoooo">
+			<div class="col-div-6oooo">
+				<h3 class="heading1oooo" style="font-family: Calibri, Helvetica, sans-serif; font-size: 20px; color:darkblue;">Technology</h3>
+				<p class="blog-headingoooo">MPs call in Minister and senior health leaders for covid-19 update</p>
+				<p style="font-weight:lighter; letter-spacing: -1px; line-height: 1;">
+Health and Social Care Committee Chair Steve Brine and Science and Technology Committee Chair Greg Clark will chair the hearing. It is expected to explore progress on the science of covid-19; UK vaccine capability and lessons learnt for new variants or pandemics; disease surveillance; social care funding; health inequalities; and Government progress made against the recommendations of the joint inquiry.
+ </p>
+				<span class="nameoooo" style="text-transform: uppercase font-family: Calibri, Helvetica, sans-serif;">Friday 25 November 2022</span>
+			</div>
+			<div class="col-div-6oooo">
+				<a href="https://committees.parliament.uk/work/657/coronavirus-lessons-learnt/news/174669/mps-call-in-minister-and-senior-health-leaders-for-covid19-update/"><img src="technologycovid.png" class="b-img-1oooo"></a>
+			</div>
+			<div class="clearfixoooo"></div>
+			<hr class="lineoooo">
+			</div>
+		</div>
+
+		<div class="clearfixoooo"></div>
+	</div>
+</section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.hero-images2er {
+  background-image: url("shopping.png");
+  height: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 12px;
+}
+
+.hero-text2er {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 12px;
+}
+
+.hero-text2er {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.hero-text2er button:hover {
+  background-color: darkblue;
+  color: white;
+  border-radius: 12px;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-images2er">
+  <div class="hero-text2er">
+    <button style="border-radius: 12px;">Click here for more info</button>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header242342 {
+  padding: 100px;
+  text-align: center;
+  background: darkblue;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="header242342">
+  <h1 style="color: white;">Popular Hosptials in UK</h1>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: darkblue;
+  font-weight: 200;
+}
+.container {
+  max-width: 800px;
+  min-width: 640px;
+  margin: 0 auto;
+}
+header {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+header h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: darkblue;
+  padding: 0;
+  margin: 0 0 15px;
+}
+header span i.fa {
+  color: royalblue;
+}
+header span {
+  font-size: 12px;
+  color: darkblue;
+}
+main {
+  display: flex;
+}
+.normal,
+.hover {
+  flex: 1;
+  padding: 0 25px;
+}
+.demo-title {
+  color: darkblue;
+  margin: 0 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.module {
+  min-width: 270px;
+  height: 470px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.3s linear 0s;
+  overflow: hidden;
+  position: relative;
+}
+.module:hover {
+  box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 0.3);
+}
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+  background: black;
+}
+.thumbnail img {
+  width: 120%;
+  transition: all 0.3s;
+}
+.module:hover .thumbnail img {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+.thumbnail .date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  padding-top: 10px;
+  color: white;
+  font-weight: lighter;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 178px;
+  bottom: 0;
+  background: white;
+  padding: 30px;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+.module:hover .content {
+  height: 278px;
+}
+
+.content .category {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  color: white;
+  text-transform: uppercase;
+  background: darkblue;
+  padding: 5px 15px;
+  font-weight: lighter;
+}
+.title {
+  margin: 0;
+  padding: 0 0 10px;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+}
+.sub-title {
+  margin: 0;
+  padding: 0 0 20px;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 300;
+}
+.description {
+  color: darkblue;
+  font-size: 14px;
+  line-height: 1.8em;
+  height: 0;
+  opacity: 1;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  overflow: hidden;
+}
+.module:hover .description {
+  height: 100px;
+}
+.meta {
+  margin: 30px 0 0;
+  color: dodgerblue;
+}
+
+</style>
+<div class='container'
+  <main>
+    <div class='normal'>
+      <p class='demo-title'>Croydon University Hospital</p>
+      <div class='module'>
+        <div class='thumbnail'>
+          <img src="westcroydonhospitalNHS.png">
+          <div class='date'>
+      
+          </div>
+        </div>
+        <div class='content'>
+          <div class="category">University hospital in Thornton Heath, England</div>
+          <h1 class='title'>Croydon University Hospital: Departments and services</h1>
+          <div class="description">
+Croydon University Hospital, known from 1923 to 2002 as Mayday Hospital and from 2002 to 2010 as Croydon Hospital, is a large NHS hospital in Thornton Heath in south London, England run by Croydon Health Services NHS Trust. It is a District General Hospital with a 24-hour Accident and Emergency department.
+</div>
+          <div class="meta">
+            <span class="timestamp">
+              <i class='fa fa-clock-o'></i> 28 mins ago
+            </span>
+            <span class="comments">
+              <i class='fa fa-comments'></i>
+              <a> 32 Reviews 🌟🌟🌟🌟🌟</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='hover'>
+      <p class='demo-title'>The Royal London Hospital</p>
+      <div class='module'>
+        <div class='thumbnail'>
+          <img src="royalhospital.png">
+          <div class='date'>
+          </div>
+        </div>
+        <div class='content'>
+          <div class="category">The Royal London Hospital</div>
+          <h1 class='title'>The Royal London Hospital for dental and oral health
+ </h1>
+          <p class="description">
+The Royal London Hospital is a large teaching hospital in Whitechapel in the London Borough of Tower Hamlets. It is part of Barts Health NHS Trust. 
+</p>
+          <div class="meta">
+            <span class="timestamp">
+              <i class='fa fa-clock-o'></i> 15 mins ago
+            </span>
+            <span class="comments">
+              <i class='fa fa-comments'></i>
+              <a> 27 Reviews 🌟🌟🌟🌟🌟</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</head>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: transparent;
+}
+
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="text-align: left;">The effects of the COVID-19 pandemic on drug and poison–related deaths</h1>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import "bourbon";
+@import "neat";
+
+$base-duration: 500ms;
+
+$color-1: midnightblue;
+$color-2: darkblue;
+$color-3: dodgerblue;
+
+$sm: new-breakpoint(min-width 320px);
+$med: new-breakpoint(min-width 768px);
+$lg: new-breakpoint(min-width 1024px);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	box-sizing: border-box;
+	background: transparent;
+	font-family: 'Calibri';
+	font-size: 20px;
+	font-weight: 200;
+        color: white;
+}
+
+body {
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+.site-wrap {
+	max-width: 1200px;
+	margin: 50px auto;
+	background: midnightblue;
+	padding: 80px;
+	text-align: justify;
+}
+
+.align-left {
+	float: left;
+	margin-right: 20px;
+}
+
+.align-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.slide-in {
+	opacity: 0;
+	transition: all .5s;
+}
+
+.align-left.slide-in {
+	transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+	transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+	opacity: 1;
+	transform: translateX(0%) scale(1);
+}
+</style>
+</head>
+
+<div class="site-wrap">
+	<img src="aside1s.png" class="align-left slide-in">
+	<p style="color: white; font-weight: lighter; font-size:14px;">
+COVID-19 has had an unprecedented impact on the lives of Albertans, with the closure of businesses and the changes in our everyday lives posing profound challenges to our mental health. Our vulnerable populations, including those struggling with substance use disorder, have faced even more adversity in accessing the support and services they depend on, compounded by increasing stress and anxiety. This Q2 Report highlights the stark effect that COVID-19 has had when it comes to unintentional opioid poisoning. Alberta is not alone in this reality – the report from the British Columbia has similar findings and trends during the first few months of the COVID-19 pandemic. We anticipate similar results in other jurisdictions, such as Ontario, which is in the preliminary reporting stages.
+</p>
+<p style="color: white; font-weight: lighter; font-size:14px;">
+Beginning in March 2020, the number of harms associated with opioid use began to increase
+significantly, reaching record levels not previously seen, in conjunction with a decrease in the
+utilization of treatment and harm reduction services. Some key findings include:
+<li style="color:white; font-weight: lighter; font-size:14px;">The most up-to-date data shows that 449 people have died from an apparent unintentional
+opioid poisoning so far in the first six months of 2020.</li>
+<li style="color:white; font-weight: lighter; font-size:14px">In the second quarter of 2020, 301 individuals died of an unintentional opioid poisoning. </li>
+<li style="color:white; font-weight: lighter; font-size:14px">On average, in the first six months of 2020, 2.5 individuals died every day in Alberta as a
+result of an unintentional opioid poisoning.</li>
+<li style="color:white; font-weight: lighter; font-size:14px">In the most recent quarter, 284 people died from an apparent unintentional fentanyl-related
+poisoning, compared to 130 people in the previous quarter.</li>
+</p>
+<p style="color: white; font-weight: lighter; font-size:14px">
+Before the COVID-19 pandemic, provincial efforts to reduce unintentional opioid poisoning
+deaths had been having a positive impact. For example, there was an 8.6% decrease in accidental opioid deaths in the first quarter of 2020 compared to the same period in 2019. Alberta’s government is saddened to see the impact of the pandemic on opioid
+fatalities during Q2 2020. It remains committed to ensuring access to a world-class, publicly
+funded continuum of care, from prevention intervention to treatment and recovery.
+<img src="aside2s.png" class="align-right slide-in">
+</p>
+
+
+	<p style="color: white; font-weight: lighter; font-size:14px;">
+The investment of $140 million, within over four years in implementing a new addiction and mental health
+a strategy that will improve access to a continuum of services, includes $40 million committed to
+address the opioid crisis. In addition, our government is proud to have recently announced that
+$25 million has been allocated through Alberta’s Recovery Plan for building five recovery
+communities throughout Alberta focusing on holistic addiction recovery. In addition, more than $53
+million was earmarked to support Albertans during and after the pandemic with the implementation
+of more online, phone and in-person mental health and addiction recovery support to make it
+easier for Albertans to access services from anywhere in the province.
+</p>
+
+	<p style="color: white; font-weight: lighter; font-size:14px;">
+We know this pandemic has caused challenges for many Albertans, for their mental health and accessing the supports and services they depend on. We also recognize that the
+pandemic is not over, which is why we will continue to monitor unintentional opioid closely
+poisonings in the province and make investments where they are needed most. 
+</p>
+</div>
+
+<script>
+function debounce(func, wait = 20, immediate = true) {
+	var timeout;
+	return function() {
+		var context = this,
+			args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+}
+
+const sliderImages = document.querySelectorAll('.slide-in');
+
+function checkSlide(e) {
+	sliderImages.forEach(sliderImage => {
+		// halfway through the image
+		const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+		// bottom of the image
+		const imageBottom = sliderImage.offsetTop + sliderImage.height;
+		const isHalfShown = slideInAt > sliderImage.offsetTop;
+		const isNotScrolledPast = window.scrollY < imageBottom;
+		if (isHalfShown && isNotScrolledPast) {
+			sliderImage.classList.add('active');
+		} else {
+			sliderImage.classList.remove('active');
+		}
+
+		console.log(slideInAt);
+	});
+}
+
+window.addEventListener('scroll', debounce(checkSlide));
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.headerght {
+  padding: 30px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="headerght">
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Calibri', sans-serif;
+}
+body {
+  background: transparent; 
+  background: transparent;
+  background: transparent; 
+}
+ 
+.card1 {
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+cursor: pointer;
+}
+.card1:hover {
+  z-index: 99;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+  position: relative;
+  z-index: 10;
+}
+.card1:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  border: 0 solid darkblue;
+  border-radius: 8px;
+  opacity: 0;
+  -webkit-transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  pointer-events: none;
+  z-index: 1;
+}
+.card1:hover:after {
+  content: "";
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+  border-width: 8px;
+  border-radius: 8px;
+  opacity: .99;
+  -webkit-transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1 .img1 {
+  height: 200px;
+  width: 100%;
+}
+.card1 .img1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card1 .top-text1 {
+  padding: 10px 10px 10px 10px;
+}
+.card1 .title h3 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card1 p {
+  font-size: 11px !important;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.card1 p span::before {
+  content: "\f192";
+  font-family: "Calibri";
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  margin: 3px 3px 0;
+  background: darkblue;
+  color: white;
+  text-align: center;
+}
+.watch1 {
+  margin-top: 5px;
+}
+.watch1 i {
+  font-size: 10px;
+}
+.watch1 .btn-w1 {
+  font-size: 13px;
+  text-decoration: none;
+  background: white;
+  border: 1px solid midnightblue;
+  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+    margin-right: 10px;
+}
+.share1 i{
+    font-size: 15px;
+}
+.card1 .bottom-text1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card1 .bottom-text1 {
+  display: none;
+}
+.card1 .bottom-text1 {
+  display: block;
+  background: midnightblue;
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  right: -1px;
+  padding: 10px 1px 5px 4px;
+  text-align: left;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  -webkit-transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  opacity: 0;
+  border-radius: 50px;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+}
+ 
+.card1:hover .bottom-text1 {
+  background-color: darkblue;
+  -webkit-filter: inherit;
+  filter: inherit;
+  -webkit-transform: scaleX(1) translateZ(0) perspective(0);
+  transform: scaleX(1) translateZ(0) perspective(0);
+  opacity: .99;
+  z-index: 2;
+  border-radius: 0;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1:hover .top-text1 {
+  opacity: 0;
+  display: none;
+}
+.card1 .bottom-text1 .btn1 {
+  margin: 10px 0;
+  text-align: left;
+}
+.card1 .bottom-text1 .btn1 a {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card1 .bottom-text1 .btn1 a:hover {
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card1 {
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}
+</style>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container1 mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="news4.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>A timeline of the Coronavirus pandemic</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>A timeline of the Coronavirus pandemic</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.nytimes.com/article/coronavirus-timeline.html" class="btn-w1"><i></i> Read </a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="news1.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>Still Confused About Masks? Here’s the Science Behind How Face Masks Prevent Coronavirus</h3>
+          </div>
+           <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>Still Confused About Masks? Here’s the Science Behind How Face Masks Prevent Coronavirus</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.ucsf.edu/news/2020/06/417906/still-confused-about-masks-heres-science-behind-how-face-masks-prevent" class="btn-w1"><i></i> Read </a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="news3.png"> </div>
+        <div class="top-text pt-2">
+          <div class="title">
+            <h3>COVID-19 deaths: Infection fatality ratio is about 1% says new report</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>COVID-19 deaths: Infection fatality ratio is about 1% says new report</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.imperial.ac.uk/news/207273/covid-19-deaths-infection-fatality-ratio-about/" class="btn-w1"><i></i> Read </a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="news2.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>COVID-19 was third leading cause of death in the United States in both 2020 and 2021
+</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>COVID-19 was third leading cause of death in the United States in both 2020 and 2021</h3>
+          </div>
+         <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="#" class="btn-w1"><i></i> Read </a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header3334fg {
+  padding: 30px;
+  text-align: center;
+  background: transparent;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="header3334fg">
+  <h1></h1>
+  <p></p>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<style>
+.b-img-1oooo1{
+	width: 60%;
+	height: 800px;
+	border-radius: 15px;
+	margin-top: 7px;
+          display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<head>
+
+<h1 style="color:darkblue;">What are the most common symptoms of COVID-19?</h1>
+<a href="#"><img src="diagram1.png" class="b-img-1oooo1"></a>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<p style="color:midnightblue; font-weight:lighter; font-family: Calibri; font-size:16px">
+Fever, newer and contagious cough, anosmia(loss of smell) and ageusia(loss of taste) are the most common symptoms of COVID-19
+The severity of COVID-19 symptoms are ranged from very mild towards severe: whilst some people have experienced COVID-19 symptoms for over four weeks after being diagnosed.
+This process within the health issue is called post-COVID-19.
+Children can also experience the multisystem inflammatory syndrome, which can affect some organs and tissues, several weeks after contracting COVID-19.
+The virus that causes COVID-19 spreads easily among people: COVID-19 has been shown by the data how it spreads mainly from person to person among those in close contact (within about 6 feet, or 2 meters).
+The number of increases in the virus are then spread by the respiratory droplets released when someone with the virus, coughs, sneezes, breathes, sings or talks.
+The Digestive Symptoms can also happen in COVID-19, causing nausea, vomiting or diarrhoea alone or with other COVID-19 symptoms. This can slo develop before the fever and respiratory symptoms,
+The changes in the skin have become more common, along with being linked with COVID-19. This includes a flat rash covered with small bumps and discoloured areas on the fingers and toes.
+The most harmful effects of COVID-19 continue to reel in the economy: prices for food and packaging commodities that had been increased by more than 22 per cent.
+Rapidly, as the COVID-19 pandemic had rapidly taken over the globe, this had led to emotional thoughts and feelings in mental health: fear, worry and concern in the population in a large scale and among certain groups within particular people.
+The impacting regarding psychological impacts for the population can be particularly difficult for older people, who may be experiencing cognitive decline or dementia.
+Furthermore, some older people may already be socially isolated and experience loneliness, which can worsen in mental health.
+</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header333498 {
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  font-size: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header333498">
+  <h1></h1>
+  <p></p>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header3334 {
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header3334">
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Calibri', sans-serif;
+}
+body {
+  background: transparent; 
+  background: -webkit-linear-gradient(to right, darkblue, blue);
+  background: transparent; 
+}
+ 
+.card1 {
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+cursor: pointer;
+}
+.card1:hover {
+  z-index: 99;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+  position: relative;
+  z-index: 10;
+}
+.card1:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  border: 2 solid darkblue;
+  border-radius: 8px;
+  opacity: 0;
+  -webkit-transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  pointer-events: none;
+  z-index: 1;
+}
+.card1:hover:after {
+  content: "";
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+  border-width: 8px;
+  border-radius: 8px;
+  opacity: .99;
+  -webkit-transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1 .img1 {
+  height: 200px;
+  width: 100%;
+}
+.card1 .img1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card1 .top-text1 {
+  padding: 10px 10px 10px 10px;
+}
+.card1 .title h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.card1 p {
+  font-size: 11px !important;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.card1 p span::before {
+  content: "\f192";
+  font-family: "Calibri";
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  margin: 3px 3px 0;
+  background: midnightblue;
+  color: white;
+  text-align: center;
+}
+.watch1 {
+  margin-top: 5px;
+}
+.watch1 i {
+  font-size: 10px;
+}
+.watch1 .btn-w1 {
+  font-size: 13px;
+  text-decoration: none;
+  background: white;
+  border: 1px solid midnightblue;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+    margin-right: 10px;
+}
+.share1 i{
+    font-size: 15px;
+}
+.card1 .bottom-text1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card1 .bottom-text1 {
+  display: none;
+}
+.card1 .bottom-text1 {
+  display: block;
+  background: midnightblue;
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  right: -1px;
+  padding: 10px 1px 5px 4px;
+  text-align: left;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  -webkit-transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  opacity: 0;
+  border-radius: 50px;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+}
+ 
+.card1:hover .bottom-text1 {
+  background-color: #fff;
+  -webkit-filter: inherit;
+  filter: inherit;
+  -webkit-transform: scaleX(1) translateZ(0) perspective(0);
+  transform: scaleX(1) translateZ(0) perspective(0);
+  opacity: .99;
+  z-index: 2;
+  border-radius: 0;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1:hover .top-text1 {
+  opacity: 0;
+  display: none;
+}
+.card1 .bottom-text1 .btn1 {
+  margin: 10px 0;
+  text-align: left;
+}
+.card1 .bottom-text1 .btn1 a {
+  text-decoration: none;
+  background: #e74c3c;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card1 .bottom-text1 .btn1 a:hover {
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card1 {
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}
+</style>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container1 mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos1.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>Recognizing Day to Day Signs and Symptoms of Coronavirus</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>Recognizing Day to Day Signs and Symptoms of Coronavirus</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=U8r3oTVMtQ0" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos2.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>COVID-19 these are the new symptoms!</h3>
+          </div>
+           <p><span>Faecbook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>COVID-19 these are the new symptoms!</h3>
+          </div>
+          <p><span>Faecbook</span> <span>Twitter</span></span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=JIy99v5UQWU" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos3.png"> </div>
+        <div class="top-text pt-2">
+          <div class="title">
+            <h3>COVID Signs and Symptoms in people of all ages-Even if you've been vaccinated</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>COVID Signs and Symptoms in people of all ages-Even if you've been vaccinated</h3>
+          </div>
+          <p><span>Faecbook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=PhzZNpx2YVQ" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos4.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>Coronavirus (COVID-19) symptoms</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>Coronavirus (COVID-19) symptoms</h3>
+          </div>
+         <p><span>Facebook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=mIOwvJEz4Cc" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Calibri', sans-serif;
+}
+body {
+  background: transparent; 
+  background: -webkit-linear-gradient(to right, darkblue, blue);
+  background: transparent; 
+}
+ 
+.card1 {
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+cursor: pointer;
+}
+.card1:hover {
+  z-index: 99;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  transform: scale3d(1.2, 1.2, 1) translateZ(0) perspective(500px);
+  -webkit-transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93);
+  transition: transform .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+  position: relative;
+  z-index: 10;
+}
+.card1:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  border: 0 solid white;
+  border-radius: 8px;
+  opacity: 0;
+  -webkit-transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border .25s cubic-bezier(.33, .04, .63, .93);
+  pointer-events: none;
+  z-index: 1;
+}
+.card1:hover:after {
+  content: "";
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+  border-width: 8px;
+  border-radius: 8px;
+  opacity: .99;
+  -webkit-transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  transition: border-width .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), top .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), right .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93), left .25s cubic-bezier(.33, .04, .63, .93), opacity .25s cubic-bezier(.33, .04, .63, .93);
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1 .img1 {
+  height: 200px;
+  width: 100%;
+}
+.card1 .img1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card1 .top-text1 {
+  padding: 10px 10px 10px 10px;
+}
+.card1 .title h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.card1 p {
+  font-size: 11px;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.card1 p span::before {
+  content: "\f192";
+  font-family: "Calibri";
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  margin: 3px 3px 0;
+  background: darkblue;
+  color: white;
+  text-align: center;
+}
+.watch1 {
+  margin-top: 5px;
+}
+.watch1 i {
+  font-size: 10px;
+}
+.watch1 .btn-w1 {
+  font-size: 13px;
+  text-decoration: none;
+  background: white;
+  border: 1px solid midnightblue;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+    margin-right: 10px;
+}
+.share1 i{
+    font-size: 15px;
+}
+.card1 .bottom-text1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card1 .bottom-text1 {
+  display: none;
+}
+.card1 .bottom-text1 {
+  display: block;
+  background: darkblue;
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  right: -1px;
+  padding: 10px 1px 5px 4px;
+  text-align: left;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+  -webkit-transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  transform: scale3d(.01, .01, 0) translateZ(0) perspective(500px);
+  opacity: 0;
+  border-radius: 50px;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+}
+ 
+.card1:hover .bottom-text1 {
+  background-color:white;
+  -webkit-filter: inherit;
+  filter: inherit;
+  -webkit-transform: scaleX(1) translateZ(0) perspective(0);
+  transform: scaleX(1) translateZ(0) perspective(0);
+  opacity: .99;
+  z-index: 2;
+  border-radius: 0;
+  -webkit-transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93);
+  transition: opacity .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), transform .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), filter .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), background-color .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), border-radius .25s ease-in, bottom .25s cubic-bezier(.33, .04, .63, .93), -webkit-transform .25s ease-in, -webkit-filter .25s ease-in;
+  -webkit-transition-delay: .4s;
+  transition-delay: .4s;
+}
+.card1:hover .top-text1 {
+  opacity: 0;
+  display: none;
+}
+.card1 .bottom-text1 .btn1 {
+  margin: 10px 0;
+  text-align: left;
+}
+.card1 .bottom-text1 .btn1 a {
+  text-decoration: none;
+  background: white;
+  color: blue;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card1 .bottom-text1 .btn1 a:hover {
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card1 {
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}
+</style>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container1 mt-5">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos5.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>Is it the flu, COVID-19 or allergies? Here's the difference</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>Is it the flu, COVID-19 or allergies? Here's the difference</h3>
+          </div>
+          <p><span>Facebook</span> <span>twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=6MRSohicUqk" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos6.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>What COVID-19 Feels Like: My Day-to-Day Symptoms</h3>
+          </div>
+           <p><span>Facebook</span><span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>What COVID-19 Feels Like: My Day-to-Day Symptoms</h3>
+          </div>
+          <p><span>Fcebook</span><span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=uYwZBiBl5t4" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos7.png"> </div>
+        <div class="top-text pt-2">
+          <div class="title">
+            <h3>What Coronavirus Symptoms Look Like, Day By Day</h3>
+          </div>
+          <p><span>Facebook</span><span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>What Coronavirus Symptoms Look Like, Day By Day</h3>
+          </div>
+          <p><span>Facebook</span><span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=OOJqHPfG7pA" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+      <div class="card1 mb-4">
+        <div class="img1"> <img src="videos8.png"> </div>
+        <div class="top-text1 pt-2">
+          <div class="title">
+            <h3>Here’s what we know about COVID-19’s impact on the brain</h3>
+          </div>
+          <p><span>Facebook</span> <span>Twitter</span></p>
+        </div>
+        <div class="bottom-text1 pt-2">
+          <div class="title">
+            <h3>Here’s what we know about COVID-19’s impact on the brain</h3>
+          </div>
+         <p><span>Faecbook</span> <span>Twitter</span></p>
+          <div class="watch1">
+            <a href="https://www.youtube.com/watch?v=7RjItCm_YpU" class="btn-w1"><i class="fad fa-play"></i> Watch</a>
+               <a href="#" class="share1"><i class="fad fa-share-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+.headerblue {
+  padding: 60px;
+  text-align: center;
+  background: darkblue;
+  color: darkblue;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="headerblue">
+  <h1 style="color: white;">Latest stories about the coronavirus pandemic</h1>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<section>
+	<div class="container1oooo" style="text-align:center;">
+		<br>
+		
+		<div class="box-2oooo">
+			<a href="https://news.sky.com/story/covid-19-travel-industry-calls-for-vaccine-passports-and-relaxation-of-travel-advice-as-part-of-easing-lockdown-restrictions-12223327"><img src="Travel1.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Travel</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px">COVID-19: Travel industry calls for vaccine passports and relaxation of travel advice as part of easing lockdown restrictions</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px">The travel industry has called on the government to introduce vaccine passports and relax its travel advice as part of the government's roadmap out of lockdown. </p>
+				<span class="nameoooo">Saturday 20 February 2021</span>
+		</div>
+
+		<div class="box-2oooo">
+			<img src="Health1.png" class="b-img-1oooo">
+			<h3 class="heading1oooo style="font-weight:bold;">Health</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">Emerging evidence on health inequalities and COVID-19: March 2021</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">People’s experiences of the pandemic have been shaped by their health and existing inequalities. The Health Foundation’s COVID-19 impact inquiry has been gathering evidence from various sources to better understand this. Measures to control the virus have fallen unevenly across society – including the impact on women and key workers and the wider implications for people’s mental health.</p>
+				<span class="nameoooo">Monday 8 March 2021</span>
+		</div>
+
+		<div class="box-2oooo">
+			<a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/animals.html"><img src="Animals1.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Animals and farming</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">Animals and COVID-19</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">Coronaviruses are a large family of viruses. Some coronaviruses cause cold-like illnesses in people, while others cause illness in certain types of animals, such as cattle, camels, and bats. Some coronaviruses, such as canine and feline coronaviruses, infect only animals and do not infect people. Some coronaviruses that infect animals can be spread to people and then spread between people, but this is rare. This is what happened with SARS-CoV-2, which likely originated in bats.
+</p>
+				<span class="nameoooo">Friday 7 April 2023</span>
+		</div>
+		
+		<div class="clearfixoooo"></div>
+
+		<div class="box-2oooo">
+			<a href="https://www.theguardian.com/uk-news/2020/mar/20/london-hospitals-struggle-to-cope-with-coronavirus-surge";><img src="Hospital1.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Hospital</h3>
+				<p class="blog-heading-1oooo style="font-weight:bold; font-size:16px;">London hospitals struggling with covid surge</p>
+<p class="textoooo" style="font-weight:lighter; font-size:16px;">NHS running short of critical care beds after thirteenfold ‘explosion’ in patients</p>
+				<span class="nameoooo">Friday 20 March 2020</span>
+		</div>
+
+		<div class="box-2oooo">
+			<a href="https://www.fitfortravel.nhs.uk/news/newsdetail.aspx?id=24150"><img src="Travel2.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Travel</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">Country Specific Risk of Coronavirus (COVID-19)</p>
+<p class="textoooo" style="font-weight:lighter; font-size:16px;">International travel continues to be impacted by COVID-19. In November 2021, many countries put travel restrictions in place to respond to the Omicron variant.</p>
+				<span class="nameoooo">Friday 3 December 2021</span>
+		</div>
+
+		<div class="box-2oooo">
+			<a href ="https://www.healthline.com/nutrition/what-to-eat-with-covid"><img src="Food1.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Food</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">5 Foods to Eat If You Have COVID-19</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">Having a healthy immune system is important for COVID-19 recovery. You may consider complimenting COVID-19 treatments with foods that include vitamins A, C, and D, as well as carotenoids, zinc, and omega-3 fatty acids.
+
+ </p>
+				<span class="nameoooo">Wednesday 15 February 2023</span>
+		</div>
+
+                <div class="box-2oooo">
+			<a href="https://news.sky.com/story/coronavirus-cheltenham-festival-and-liverpool-v-atletico-madrid-led-to-spike-in-covid-19-deaths-11994875"><img src="Sports2.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo" >Sports</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">Coronavirus: Cheltenham Festival and Liverpool v Atletico Madrid 'led to spike' in COVID-19 deaths</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">
+Professor Tim Spector, from King's College London, said the two events - held from 16 to 19 March and on 11 March respectively - had "caused increased suffering and death that wouldn't otherwise have occurred".</p>
+				<span class="nameoooo">Tuesday 26 May 2020</span>
+		</div>
+
+                <div class="box-2oooo">
+			<a href="https://www.packaging-gateway.com/news/fsa-coronavirus-food/"><img src="Food2.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Food</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">FSA publishes new research on the survival of coronavirus on food and packaging</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">The research, conducted by the University of Southampton, was commissioned by the FSA following the publication of its risk assessment in 2020 which concluded it was very unlikely that humans could catch the virus from food. The study involved deliberately adding virus to the surface of food and packaging. It was not designed to consider the probability that food becomes contaminated under normal conditions, or the probability that virus on food will lead to infection.</p>
+				<span class="nameoooo">Tuesday 29 November 2022</span>
+		</div>
+
+<div class="box-2oooo">
+			<a href="https://www.theguardian.com/commentisfree/2020/apr/20/factory-farms-pandemic-risk-covid-animal-human-health"><img src="Animals2.png" class="b-img-1oooo"></a>
+			<h3 class="heading1oooo">Animals and Farming</h3>
+				<p class="blog-heading-1oooo" style="font-weight:bold; font-size:16px;">We have to wake up: factory farms are breeding grounds for pandemics</p>
+				<p class="textoooo" style="font-weight:lighter; font-size:16px;">It can feel wrong, or simply impossible, to focus on anything other than getting through this most challenging moment. It is reasonable to argue that since lessons will not reduce our immediate suffering, we should learn them once we’re through this. But the vulnerability that makes the present so painful is exactly why some discussions cannot wait. The suffering we stand to reduce or increase by the threads of action that we begin to unwind now could be magnitudes of what we’re currently experiencing. </p>
+				<span class="nameoooo">Monday 20 April 2020</span>
+		</div>
+
+		<div class="clearfixoooo"></div>
+	</div>
+</section>
+</head>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.all-browsers2 {
+  margin: 5;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: midnightblue;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+</style>
+</head>
+<body>
+<article class="all-browsers2">
+  <h2 style="color: midnightblue;">Most Popular websites for curing symptoms from Covid-19.</h2>
+  <article class="browser">
+    <h2 style="color:white;">Treating COVID-19 at home: Care tips for you and others</h2>
+    <a href="https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/treating-covid-19-at-home/art-20483273"><p style="color:white; font-weight:lighter; font-family:Calibri;">
+Providing care at home for a person sick with COVID-19? Or caring for yourself at home? Understand when emergency care is needed and what you can do to prevent the spread of infection.
+</p></a>
+  </article>
+  <article class="browser">
+    <h2 style="color:white;">How to look after yourself at home if you have COVID-19 or symptoms of COVID-19</h2>
+    <a href="https://www.nhs.uk/conditions/covid-19/how-to-look-after-yourself-at-home-if-you-have-covid-19/"><p style="color:white; font-weight:lighter; font-family:Calibri;">If you have a cough, it's best to avoid lying on your back. Lie on your side or sit upright instead. To help ease a cough, try having a teaspoon of honey. But do not give honey to babies under 12 months. If this does not help, you could contact a pharmacist for advice about cough treatments.</p></a>
+  </article>
+  <article class="browser">
+    <h2 style="color:white;">Treat COVID-19 symptoms at home</h2>
+    <a href="https://www2.hse.ie/conditions/covid19/symptoms/treat-symptoms-home/"><p style="color:white; font-weight:lighter; font-family:Calibri;">
+Any treatment you may need depends on the symptoms you have. Some people do not need any treatment if their symptoms are very mild. It can take up to 14 days for symptoms to show.
+</p></a>
+  </article>
+</article>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header3999 {
+  padding: 60px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="header3999">
+  <h1></h1>
+  <p></p>
+</div>
+</body>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script async src="javascript/index.js"></script>
+  </head>
+  <body>
+    <div class="image-section">
+      <div class="section-style">
+        <img src="imageselection1.png" alt="imageselection1" />
+      </div>
+
+      <div class="section-style">
+        <img src="imageselection2.png" alt="imageselection2" />
+      </div>
+    </div>
+
+    <div class="image-section">
+      <div class="section-style">
+        <img src="imageselection3.png" alt="imageselection3" />
+      </div>
+
+      <div class="section-style">
+        <img src="imageselection4.png" alt="imageselection4" />
+      </div>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header39999 {
+  padding: 60px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header39999">
+  <h1></h1>
+  <p></p>
+</div>
+</body>
+</header>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.headeryellow {
+  padding: 60px;
+  text-align: center;
+  background: yellow;
+  color: red;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="headeryellow">
+  <h1 style="text-align: center; color:red;">Here are some brand new offers to protect yourself from the covid pandemic!</h1>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Calibri', sans-serif;
+}
+
+.price-row {
+	width: 270%;
+	max-width: 1100px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 35px;
+}
+
+.price-col {
+	background: darkblue;
+	padding: 10% 15%;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+
+.price-col p {
+	font-size: 22px;
+}
+
+.price-col h3 {
+	font-size: 44px;
+	margin: 20px 0 40px;
+	font-weight: 500;
+}
+
+.price-col h3 span {
+	font-size: 16px;
+}
+
+.price-col ul {
+	text-align: left;
+	margin: 20px 0;
+	color: white;
+}
+
+.price-col ul li {
+	margin: 20px 0;
+	size: 20px;
+}
+
+.price-col button {
+	width: 100%;
+	padding: 14px 0;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+	border: 2px solid white;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+.price-col button:hover {
+	background: red;
+}
+
+.price-col1 {
+	background: darkblue;
+	padding: 10% 15%;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+
+.price-col1 p {
+	font-size: 22px;
+}
+
+.price-col1 h3 {
+	font-size: 44px;
+	margin: 20px 0 40px;
+	font-weight: 500;
+}
+
+.price-col1 h3 span {
+	font-size: 16px;
+}
+
+.price-col1 ul {
+	text-align: left;
+	margin: 20px 0;
+	color: white;
+}
+
+.price-col1 ul li {
+	margin: 20px 0;
+	size: 20px;
+}
+
+.price-col1 button {
+	width: 100%;
+	padding: 14px 0;
+	background: transparent;
+	color: white;
+	font-size: 15px;
+	border: 2px solid white;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+.price-col1 button:hover {
+	background: red;
+}
+
+</style>
+<head>
+</head>
+
+<body>
+		<div class="price-row">
+			<div class="price-col">
+<img src="facemask.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">Covid-19 face mask pack</p>
+				<ul>
+					<li  style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">FLEXIBLE DESIGN - has a flexible upper side and earloops that allow for easy fitting and comfortable wear</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">HOW TO WEAR - Use your fingers to gently lift each loop from the front of the mask on the right and left side, open the loops and put on the mask.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">DISPOSABLE - Please dispose of properly after use. These are not reusable masks.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">This is a general use face mask.</li>
+<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+This mask is neither a medical device, nor personal protective equipment. It is not intended for use in healthcare settings and it is not proven to reduce the transmission of disease
+</li>
+				</ul>
+				<a href="https://www.amazon.co.uk/General-Disposable-Face-Mask-Pieces/dp/B086Q8R4VS/ref=lp_21680266031_1_2?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D"><button>Buy Now</button></a>
+			</div>
+			<div class="price-col1">
+<img src="handsanitizer.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">EcoHydra Alcohol Free Antibacterial Foam Instant Hand</p>
+
+				<ul>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;"> ALCOHOL FREE! - EcoHydra’s fast acting alcohol-free foam hand sanitiser kills up to 99.9999% of bacteria and viruses and contains soothing aloe vera to nourish and moisturise the skin. Perfect for commercial use, office use, schools & nurseries.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">CUTTING EDGE TECHNOLOGY - Using a specific proprietary formula including Aloe Vera, Surfactants and Emollients. EcoHydra Sanitisers combine BASE Technology and ZERO Alcohol to provide a highly effective hygiene solution.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">DERMATOLOGICALLY TESTED - Perfect for those with skin conditions such as psoriasis, eczema & dermatitis. EcoHydra Foam Sanitisers will not sting nor damage the skin on your hands, and is safe for children.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">NHS APPROVED SUPPLIER - EcoHydra products aid in maintaining effective hand hygiene solutions. A certified NHS Supplier providing hand sanitising solutions across the UK.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;"> KILLS VIRUSES, KIND TO SKIN - EcoHydra Products kills up to 99.9999% of bacteria and viruses within 30 seconds of application. Our hand sanitisers have passed EN 1276, EN 1500, EN 14476, prEN 12054, EN 13704 .</li>
+				</ul>
+				<a href="https://www.amazon.co.uk/EcoHydra-Alcohol-Antibacterial-Instant-Sanitiser/dp/B00K803J5A/ref=asc_df_B00K803J5A/?tag=googshopuk-21&linkCode=df0&hvadid=310642411145&hvpos=&hvnetw=g&hvrand=15142335760279087902&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9045871&hvtargid=pla-433829203568&psc=1&th=1&psc=1"><button>Buy Now</button></a>
+			</div>
+			<div class="price-col">
+<img src="FirstAidKit.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">130 Pieces First Aid Kit with Hospital Grade Medical Supplies</p>
+				<ul>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">130 EMERGENCY SUPPLIES - Our emergency kit comes with a compass, triangular bandages, survival blankets, ice packs, band-aids of various sizes and sterile gauze pads, scissors, tweezers, rescue whistles, tourniquets and a range of First Aid supplies. Meets your basic care needs, perfect for backpacking, camping, hiking, and outdoor adventures.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">INTERNAL COMPARTMENT FOR EASY RUMMAGING - This first aid kit interior compartment makes it easy to find what you need in an emergency, keeping first aid items organized. No more rummaging or making a mess to find the supplies you need. To help care for minor wounds, cuts, abrasions, and burns.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">WATERPROOF AND DURABLE - This first aid bag is designed to come with a red ripstop polyester nylon bag in addition to being waterproof. And it has a night reflection design that allows you to easily find it when the light is low. This can buy you time to stay calm and act in the event of an unexpected surprise.</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">SMALL AND LIGHTWEIGHT - Our 1st aid kit measures just the right amount of 17.1cm x 12.9cm x 6.9cm (6.7" x 5.1" x 2.7") ; It weighs only 725g (1.6 lbs). Just bring it with you when you're out and about, and your basic care needs can be addressed. For your safety, perfect for traveling, skiing, car, office, home, kitchen, road trip, boat carry-on.
+</li>
+				</ul>
+				<a href="https://www.amazon.co.uk/Pieces-First-Hospital-Medical-Supplies/dp/B095C33HXN/ref=asc_df_B095C33HXN/?tag=googshopuk-21&linkCode=df0&hvadid=535904766646&hvpos=&hvnetw=g&hvrand=377761045466987834&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9045871&hvtargid=pla-1464540269257&psc=1"><button>Buy Now</button></a>
+</div>
+<div class="price-col">
+<img src="glove.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">100 (1 Box) x Blue Nitrile (Latex & Powder Free) Gloves Disposable Food Medical etc. (Small)</p>
+				<ul>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+Made using Nitrile Butadiene for excellent performance and flexibility
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+Textured fingertips for a more secure grip
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+Tear and chemical resistant and made in accordance with EN 455 1/2/3 and EN 374 1/2/4
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+Commonly used by doctors and dentists for non-sterile medical use - Medical grade 3.5g and AQL 1.5 & Food grade gloves - ideal for kitchen and catering tasks and Beaded cuff helps to make these gloves easy to fit and remove
+</li>
+                                        <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+Food grade glove - powder free design helps to reduce dust contamination & Exclusively Available from Pasha81 ltd
+</li>
+				</ul>
+				<a href="https://www.amazon.co.uk/Nitrile-Powder-Gloves-Disposable-Medical/dp/B086R1W9X1/ref=pd_bxgy_sccl_1/258-6583992-7906769?pd_rd_w=5NVzW&content-id=amzn1.sym.40f919ed-e530-4b1a-8d7e-39de6587208d&pf_rd_p=40f919ed-e530-4b1a-8d7e-39de6587208d&pf_rd_r=M6HDQV5BAD599ER8A2DT&pd_rd_wg=FFKvb&pd_rd_r=d7318d39-19f2-4dc4-97f9-653fc60669cb&pd_rd_i=B086R1W9X1&th=1"><button>Buy Now</button></a>
+			</div>
+<div class="price-col">
+<img src="handwipes.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">
+Bactitox 100 Alcohol Wipes - Antibacterial Sanitiser Wipes - 80% Ethanol Wipe - Fast Acting Surface Disinfectant - Thick and Durable (Pack of 2)</p>
+				<ul>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+TOTAL OF 100 WIPES - Easy to Use Two Packs Of Alcohol Wipes, Each Pack Contains 50 Wipes.
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+MOISTURE RETENTION PACKS - Resealable Moisure Lock Lid included on Each Pack.
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+80% ALCOHOL SANITISER - Leaves No Residue and Does Not Leave a Stain.
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+HEAVY DUTY MATERIAL - For Enhanced Antibacterial Coverage, Soft and Strong Wipes for Everday Use.
+</li>
+                                        <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+UNSCENTED ALCOHOL WIPES - Suitable Disinfectant Wipes used in Domestic, Medical, or Professional Settings for Every Day Use to Sanitise Electronic Devices, Mobile Phones, Furniture, Gym Equipment, Bathrooms, Windows.
+</li>
+                                        <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+SURFACE WIPES - Used to Disinfect in Kitchens, Offices, Gyms, Schools or Around the Home by Professionals or Households.
+</li>
+                                        <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+UNSCENTED ALCOHOL WIPES - Suitable Disinfectant Wipes used in Domestic, Medical, or Professional Settings for Every Day Use to Sanitise Electronic Devices, Mobile Phones, Furniture, Gym Equipment, Bathrooms, Windows.
+</li>
+                                  <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+SURFACE WIPES - Used to Disinfect in Kitchens, Offices, Gyms, Schools or Around the Home by Professionals or Households.
+</li>
+                                  <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+ALCOHOL WIPES - Contains 80% Alcohol to Provides Superior Germicidal, Virucidal and Antimicrobial Properties.
+</li>
+                                  <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+DIMENSIONS - Each wipe measures 15cm x 20cm, perfect for quick clean-ups
+</li>
+				</ul>
+				<a href="https://www.amazon.co.uk/Bactitox-Alcohol-Surface-Disinfectant-Wipes/dp/B08VJD7GS7/ref=sr_1_14_sspa?crid=2UO27N32L8UFN&keywords=EcoHydra%2BAlcohol%2BFree%2BAntibacterial%2BFoam%2BInstant%2BHand&qid=1691942898&s=industrial&sprefix=ecohydra%2Balcohol%2Bfree%2Bantibacterial%2Bfoam%2Binstant%2Bhand%2Cindustrial%2C203&sr=1-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1"><button>Buy Now</button></a>
+			</div>
+<div class="price-col">
+<img src="Antibacterial wipes.png">
+				<p style="font-weight:bold; font-size:16px; color:white; font-family: Calibri;">Dettol Antibacterial Biodegradable Surface Cleaning Disinfectant Wipes, 110 x 3 Wipes (Total 330 Wipes)</p>
+				<ul>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+DISINFECTING and ANTIBACTERIAL WIPES - Dettol surface cleaning wipes antibacterial are ideal for fast and hygienic cleaning; Non bleach, no taint and odourless
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+KILLS 99.9 Percent OF BACTERIA - As well as antibiotic MRSA, E.coli, Salmonella, Rotavirus, Flu virus (H1N1) and 90 Percent of all allergens
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+ALL-PURPOSE CLEANING AT HOME OR AT WORK - Safe for use on most hard, non-porous surfaces, everyday including food preparation areas, baby equipment, furniture, door knobs, kitchen and bathroom surfaces, floor cleaning, children’s surfaces and office cleaning
+</li>
+					<li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+THICK, MOISTURE-RICH WIPES - Designed with enhanced pocket technology to lock in more moisture than ever so the disinfectant wipes can go further
+</li>
+                                        <li style="font-weight:lighter; font-size:16px; color:white; font-family: Calibri;">
+AIRTIGHT, RESEALABLE PACK - To ensure that the pack can be securely resealed between uses to prevent the surface wipes drying out
+</li>
+				</ul>
+				<a href="https://www.google.co.uk/shopping/product/10084697521092049463?lsf=seller:8225840,store:16989022006923622288,lsfqd:0&prds=oid:4387799280513860040&q=disinfectants&hl=en&ei=SADZZPrxMdSUhbIPzuGoiA8&sts=14&lsft=gclid:CjwKCAjw_uGmBhBREiwAeOfsd0fzxQ4e6PcW284EomFT3ulyt3DRtJYMW2uZcwXyewclaoa-YPSO-xoCsyEQAvD_BwE,gclsrc:aw.ds"><button>Buy Now</button></a>
+			</div>
+
+
+		</div>
+	</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color: darkblue; text-align:left;">Article on guideline and diagnosis of COVID-19.</h1>
+
+<article>
+  <h2 style="font-weight:bold; font-size:20px; color:darkblue; font-family: Calibri; align-text:left;">Covid-19: The latin Americans defies the nationalism and circumstances to develop its own vaccines</h2>
+  <a href="https://www.bmj.com/content/382/bmj.p1351"><p style="color:midnightblue; font-weight:lighter;">
+When the pandemic shook the world in 2020, Argentina, like many countries, went into full lockdown. Juliana Cassataro, a researcher at the National University of General San Martín, wondered what her team could do to help. The answer was obvious for a researcher specialising in oral vaccines: make one.
+</p></a>
+</article>
+
+<article>
+  <h2 style="font-weight:bold; font-size:20px; color:darkblue; font-family: Calibri; align-text:left;">A living WHO guideline on drugs for covid-19</h2>
+
+  <a href="http://www.southsudanmedicaljournal.com/archive/february-2021/a-living-who-guideline-on-drugs-for-covid-19.html"><p style="color:midnightblue; font-weight:lighter;">
+The latest version of this WHO living guidance provides strong recommendations against the use of hydroxychloroquine and lopinavir-ritonavir in patients with COVID-19 regardless of disease severity. These recommendations follow the publication of results from the WHO SOLIDARITY trial
+</p></a>
+</article>
+
+<article>
+  <h2 style="font-weight:bold; font-size:20px; color:darkblue; font-family: Calibri; align-text:left;">Covid-19 diagnosis and management</h2>
+  <a href="https://onlinelibrary.wiley.com/doi/10.1111/joim.13091"><p style="color:midnightblue; font-weight:lighter; text-decoration: none;">
+Severe acute respiratory syndrome coronavirus (SARS-CoV)-2, a novel coronavirus from the same family as SARS-CoV and Middle East respiratory syndrome coronavirus, has spread worldwide leading the World Health Organization to declare a pandemic. The disease caused by SARS-CoV-2, coronavirus disease 2019 (COVID-19), presents flu-like symptoms which can become serious in high-risk individuals. 
+</p></a>
+</article>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header345 {
+  padding: 60px;
+  text-align: center;
+  background: darkblue;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header345">
+  <h1></h1>
+  <p></p>
+</div>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+
+.image-left, .image-right
+{
+	margin: 1em 0;
+}
+
+@media (min-width: 20em)
+{
+	.image-left, .image-right
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.image-left img
+	{
+		margin-right: 1em;
+		float: left; 
+	}
+
+	.image-right img
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right; 
+	}
+
+	.image-left::after,
+	.image-right::after
+	{
+		content: "";
+  	display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 30em)
+{
+	.image-left img, .image-right img
+	{
+		flex-shrink: 0;
+	}
+}
+
+</style>
+
+<div class="image-left">
+	<img src="aside1.png" alt="aside" style="width:400px;height:400px;">
+	<div>
+
+<h1 style="color:midnightblue;">Misinformation about COVID-19: evidence for differential latent profiles and a strong association with trust in science</h1>
+		<p style="font-weight:lighter; color:midnightblue; font-size:16px;">
+Research on misinformation and conspiratorial thinking has burgeoned in recent years. Because this work has focused both on misinformation and conspiratorial thinking, we use these terms consistently with the specific studies cited, but somewhat interchangeably. Consistent with the proliferation of misinformation about COVID-19, it has been proposed that conspiratorial thinking is more likely to emerge during times of societal crisis and may stem from heuristic reasoning (e.g., “a major event must have a major cause”). At the same time, endorsement of misinformation or conspiracy seems to be common, with evidence from nationally representative research indicating that approximately half of US residents endorsed at least one conspiracy in surveys from 2006 to 2011, even when only offered a short list of possibilities. A recent study of COVID-19 conspiracy theories similarly found that nearly 85% of a representative US sample of 3019 individuals believed that at least one COVID-19 conspiracy theory was “probably” or “definitely” true. The widespread nature of this phenomenon logically suggests that endorsing misinformation is unlikely to be caused by delusions or discrete pathology.
+</p>
+	
+	</div>
+</div>
+
+<div class="image-right">
+	<img src="aside2.png" alt="aside2" style="width:400px;height:400px;">
+	<div>
+<h1 style="color:midnightblue; text-align:center;">The Mediating Roles of Attitude Toward COVID-19 Vaccination, Trust in Science and Trust in Government in the Relationship Between Anti-vaccine Conspiracy Beliefs and Vaccination Intention</h1>
+		<p style="color:midnightblue; text-align:left; font-weight:lighter; font-size:16;">
+
+Since the outbreak of COVID-19, many conspiracy theories have spread widely, which has the potential to reduce adherence to recommended preventive measures. Specifically, anti-vaccine conspiracy beliefs can have a strong negative impact on COVID-19 vaccination attitude and intention. The present study aimed to clarify how such beliefs can reduce vaccination intention, exploring the possible mediating roles of attitude toward vaccination, trust in science, and trust in government, among a sample of 822 unvaccinated Italian adults (Women = 67.4%; Mage = 38.1). Path analysis showed that anti-vaccine conspiracy beliefs influenced intention to get vaccinated both directly and indirectly through the mediating effects of attitude, trust in science, and trust in government. In particular, the simple mediating effect of attitude was the strongest one, followed by the serial mediating effect of trust in science and attitude itself. Findings provide insights into the design of interventions aimed at reducing misinformation and subsequent vaccine hesitancy.
+</p>
+	</div>
+</div>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header345 {
+  padding: 60px;
+  text-align: center;
+  background: darkblue;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header345">
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.registercontainers {
+  padding: 16px;
+  background-color: white;
+  text-align: left;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 0.5;
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lightgrey;
+  outline: none;
+}
+
+hr {
+  border: 2px solid dodgerblue;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.registercancelbtn {
+  padding: 14px 20px;
+  background-color: red;
+}
+
+.registersignupbtn {
+  padding: 14px 20px;
+  backgorund-color:darkblue;
+}
+
+.registercancelbtn, .registersignupbtn {
+  float: left;
+  width: 50%;
+}
+
+.registercontainers {
+  padding: 16px;
+  background-color:white;
+}
+
+.registerclearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .registercancelbtn, .registersignupbtn {
+     width: 100%;
+  }
+
+a {
+  color: red;
+}
+
+
+.registersignin {
+  background-color: red;
+  text-align: left;
+}
+
+h1 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: lighter;
+}
+
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="registercontainers">
+    <h1 style="color: darkblue;">Register for your next appointment</h1>
+    <p>Please fill in this form to create an account. We will get in touch with your account as soon as possible.</p>
+    <hr>
+    <label for="username"><b style="text-align:left; font-weight:bold; font-family:Calibri; font-size:18px; color:midnightblue;">Username</b></label>
+    <input type="text" placeholder="Enter Your Username" name="username" id="username" required>
+
+    <label for="email"><b style="text-align:left; font-weight:bold; font-family:Calibri; font-size:18px; color:midnightblue;">Email</b></label>
+    <input type="text" placeholder="Enter Your Email" name="email" id="email" required>
+
+    <label for="psw"><b  style="text-align:left; font-weight:bold; font-family:Calibri; font-size:18px; color:midnightblue;">Password</b></label>
+    <input type="password" placeholder="Enter Your Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b  style="text-align:left; font-weight:bold; font-family:Calibri; font-size:18px; color:midnightblue;">Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Your Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p style="font-weight:bold; font-family:Calibri; font-size:18px; color:midnightblue;">By creating an account you agree to our <a href="confirmrestrictionform/index.html">Terms & Privacy</a>.</p>
+    
+    
+  <div class="registerclearfix">
+      <button type="button" class="registercancelbtn" onclick="myFunction()">Cancel</button></a>
+      <a href="#"><button type="submit" class="registersignupbtn">Register</button></a>
+    </div>
+  
+<div class="registercontainer registersignin">
+    <p  onclick="myFunction1()"><a href="#">Sign up</a></p>
+  </div>
+</form>
+<script>
+function myFunction() {
+  confirm("Please complete our registration form!");
+}
+
+function myFunction1() {
+  confirm("Sorry there is nothing to show here!");
+}
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+h1{
+  display:flex;
+  justify-content: center;
+  color: darkblue;
+}
+
+img {
+  width:30%;
+  height:auto;
+  margin: 5px;
+  transition:all 1s ease;
+}
+
+img:hover {
+  transform:scale(1.1);
+}
+
+.photogalleries234 {
+  display:flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+}
+</style>
+<div class="photogalleries234">
+  <img src="gallery1.png" >
+  <img src="gallery2.png" >
+  <img src="gallery3.png">
+  <img src="gallery4.png" > 
+  <img src="gallery5.png">
+  <img src="gallery6.png">
+  <img src="gallery7.png">
+  <img src="gallery8.png">
+  <img src="gallery9.png">
+  <img src="gallery10.png">
+  <img src="gallery11.png">
+  <img src="gallery12.png">
+  <img src="gallery13.png">
+  <img src="gallery14.png">
+  <img src="gallery15.png">
+  <img src="gallery16.png">
+  <img src="gallery17.png">
+  <img src="gallery18.png">
+  <img src="gallery19.png">
+  <img src="gallery20.png">
+  <img src="gallery21.png">
+  <img src="gallery22.png">
+  <img src="gallery23.png">
+  <img src="gallery24.png">
+  <img src="gallery25.png">
+  <img src="gallery26.png">
+  <img src="gallery27.png">
+  <img src="gallery28.png">
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header3 {
+  padding: 60px;
+  text-align: center;
+  background: darkblue;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div class="header3">
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+.containerdfdf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutdfdf {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  background-color: midnightblue;
+}
+
+.aboutdfdf figuredfdf {
+  position: relative;
+}
+
+.aboutdfdf .layerdfdf h3,
+.aboutdfdf .layerdfdf p {
+  opacity: 3;
+  font-size: 1.8em;
+  font-weight: 200;
+  color: black;
+  width: 100%;
+  margin: 10px auto 0px;
+  border-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.aboutdfdf .layerdfdf h3 {
+  font-weight: 200;
+  padding-top: 50px;
+}
+
+.aboutdfdf p {
+  color: darkblue;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.aboutdfdf figuredfdf {
+  border: 2px solid dodgerblue;
+  padding: 15px;
+  margin: 30px auto;
+}
+
+.aboutdfdf figuredfdf a {
+  width: 60px;
+  height: 35px;
+  padding-top: 10px;
+  border-radius: 10px 15px 0px;
+  color: black;
+  background-color: midnightblue;
+  text-decoration: none;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<div class="aboutdfdf">
+  <h1 style="color: darkblue; font-style: Calibri;">Our Team</h1>
+</div>
+<section class="containerdfdf aboutdfdf">
+  <figure>
+    <div class="layer">
+      <h3 style="color: darkblue;">Assistant Manager</h3>
+    </div>
+    <img src="Assistant Manager.png" alt="">
+    <figcaption>
+      <h3 style="color: dark blue;">Jack Green</h3>
+      <br>
+      <a href="#" class="fa fa-twitter fa-2x"></a>
+      <a href="#" class="fa fa-facebook fa-2x"></a>
+      <a href="#" class="fa fa-linkedin fa-2x"></a>
+      <a href="#" class="fa fa-instagram fa-2x"></a>
+    </figcaption>
+  </figure>
+
+  <figure>
+    <div class="layer">
+      <h3 style="color: darkblue;">Customer Assistant</h3>
+    </div>
+    <img src="Customer Assistant.png" alt="">
+
+    <figcaption>
+      <h3 style="color: darkblue;">John Wayne</h3>
+      <br>
+      <a href="#" class="fa fa-twitter fa-2x"></a>
+      <a href="#" class="fa fa-facebook fa-2x"></a>
+      <a href="#" class="fa fa-linkedin fa-2x"></a>
+      <a href="#" class="fa fa-instagram fa-2x"></a>
+    </figcaption>
+  </figure>
+
+  <figure>
+    <div class="layer">
+      <h3 style="color: darkblue;">Support Officer</h3> 
+    </div>
+    <img src="Support Officer.png" alt="">
+    <figcaption>
+      <h3 style="color: darkblue;">Jane Beckham</h3>
+      <br>
+      <a href="#" class="fa fa-twitter fa-2x"></a>
+      <a href="#" class="fa fa-facebook fa-2x"></a>
+      <a href="#" class="fa fa-linkedin fa-2x"></a>
+      <a href="#" class="fa fa-instagram fa-2x"></a>
+    </figcaption>
+  </figure>
+</section>
+</head>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.header3 {
+  padding: 60px;
+  text-align: center;
+  background: darkblue;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="header3">
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.foot-sectionoooo{
+	background: var(--main);
+}
+.foot-inneroooo{
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+.ibox2oooo{
+	margin: 0 auto;
+	width: 380px;
+}
+footeroooo{
+	background:var(--darkblue);
+	padding: 15px;
+}
+footeroooo p{
+	color: var(--white);
+	text-align: center;
+}
+</style>
+<section class="foot-sectionoooo">
+	<div class="containeroooo">
+		<div class="foot-inneroooo">
+		<h1 class="headingoooo" style="margin: 0px;">Sign up to our weekly email</h1>
+			<p></p>
+			<div class="input-boxoooo ibox2oooo"><input type="text" placeholder="Enter Your Email"><button style="border-radius: 12px;">Sign up</button></div>
+		</div>
+	</div>
+</section>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.footer {
+  background-color: darkblue;
+  width: 100%;
+  text-align: left;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-style: Calibri;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.buttonfooter {
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer h2 {
+  color: white;
+  font-style: Calibri;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: white;
+}
+
+.footer .menu {
+  color: white;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: red;
+}
+
+.footer .name {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+</style>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> About the company</span> 
+CovidBAT: BookAndTrial company is an online website where we post the latest information, news and facts about covid-19. Our main priority is making sure that we are
+ collecting the customers' details and home addresses based on their next appointment for treating many mild symptoms from covid-19 and needs to be treated urgently. We ensure that we contact the customer by emailing them on their next appointment and the nearest hospital that's available.
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span> 65 Mayfield Rd. South Croydon</span> UK, England</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+44) 7476 637 146</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> CovidBAT:BookAndTrial@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <h2>Book today at<span> CovidBAT:BookAndTrial</span></h2>
+    <p class="menu">
+      <a href="#"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="#"> Services</a> |
+      <a href="#"> Contact</a> |
+      <a href="#"> News</a> |
+      <a href="#"> Book a trip</a> |
+      <a href="#"> Travel advice</a> |
+      <a href="#"> Support</a> 
+    </p>
+    <p class="name"> CovidBAT:BookAndTrial &copy; 2022</p>
+  </div>
+<div>
+<style>
+.submit {
+  background-color: royalblue;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: midnightblue;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+  <label for="gsearch" style="color:white; font-family:Calibri; font-size:14px;">Search</label>
+  <input style="color:darkgrey; font-family:Calibri; font-size:14px;" type="search" id="gsearch" placeholder="Search.." name="gsearch">
+  <input type="submit" class="submit">
+</div>
+</footer>
+</head>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CovidBAT:BookAndTrial homepage</title>
+<body>
+<script src="script-Copy.js"></script>
+</body>
+
+<!DOCTYPE html>
+<head>
+<html>
+    <link rel="stylesheet" href="cookiestyle.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!--<script src="script.js" defer></script>-->
+
+    <div class="cookiewrapper">
+      <header>
+        <i class="bx bx-cookie"></i>
+        <h2 style="font-size:20px; font-weight:bold: color:white; font-family:Calibri;">Cookies Consent</h2>
+      </header>
+
+      <div class="cookiedata">
+        <p style="font-size:14px; font-weight:lighter: color:white; font-family:Calibri;">This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="cookiesconsent/index.html" style="color:red; font-weight:bold;"> Read more...</a></p>
+      </div>
+
+      <div class="cookiebutton">
+        <button class="cookiebutton1" id="theacceptBtn">Accept</button>
+        <button class="cookiebutton1" id="thedeclineBtn">Decline</button>
+      </div>
+    </div>
+</html>
+<script>
+const cookieBox = document.querySelector(".cookiewrapper"),
+  buttons = document.querySelectorAll(".cookiebutton1");
+
+const executeCodes = () => {
+  //if cookie contains codinglab it will be returned and below of this code will not run
+  if (document.cookie.includes("codinglab")) return;
+  cookieBox.classList.add("show");
+
+  cookiebutton1.forEach((button) => {
+    button.addEventListener("click", () => {
+      cookieBox.classList.remove("show");
+
+      //if button has acceptBtn id
+      if (button.id == "theacceptBtn") {
+        //set cookies for 1 month. 60 = 1 min, 60 = 1 hours, 24 = 1 day, 30 = 30 days
+        document.cookie = "cookieBy= codinglab; max-age=" + 60 * 60 * 24 * 30;
+      }
+    });
+  });
+};
+
+//executeCodes function will be called on webpage load
+window.addEventListener("load", executeCodes);
+</script>
+</head>
+</html>

@@ -1,0 +1,87 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
+  font-weight: bold;
+}
+.cookiewrapper {
+  position: fixed;
+  bottom: 25px;
+  right: -390px;
+  max-width: 345px;
+  width: 100%;
+  background: royalblue;
+  border-radius: 3px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0.8, 0.8);
+  color: white;
+}
+.cookiewrapper.show {
+  right: 20px;
+}
+.cookiewrapper header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+header i {
+  color: white;
+  font-size: 50px;
+}
+header h2 {
+  color: white;
+  font-weight: 600;
+}
+.cookiewrapper .cookiedata {
+  margin-top: 16px;
+}
+.cookiewrapper .cookiedata p {
+  color: white;
+  font-size: 15px;
+}
+.cookiedata p a {
+  color: red;
+  text-decoration: none;
+}
+.data p a:hover {
+  text-decoration: underline;
+}
+.cookiewrapper .cookiebutton {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cookiebutton .cookiebutton1 {
+  border: none;
+  color: white;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: darkblue;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.cookiebutton1 #theacceptBtn:hover {
+  background-color: red;
+}
+#theacceptBtn:hover {
+  background-color: white;
+  color: red;
+}
+
+#thedeclineBtn {
+  border: 1px solid darkblue;
+  background-color: white;
+  color: darkblue;
+}
+#thedeclineBtn:hover {
+  background-color: darkblue;
+  color: red;
+}
